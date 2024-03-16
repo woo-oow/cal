@@ -1,1 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
 
+.op {
+  position: relative;
+  display: flex;
+  background-color: #262626;
+}
+.number {
+  position: relative;
+  display: flex;
+  background-color: #FFFFFF;
+  text-color: #023E8A;
+}
+
+.t {
+  position: relative;
+  display: flex;
+  background-color: #FFFFFF;
+  text-color: #023E8A;
+}
