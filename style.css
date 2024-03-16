@@ -8,7 +8,7 @@ body {
   position: relative;
   display: flex;
   background-color: #262626;
-  text-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .number {
@@ -16,14 +16,14 @@ body {
   display: flex;
   flex-align: center;
   background-color: #FFFFFF;
-  text-color: #023E8A;
+  color: #023E8A;
 }
 
 .t {
   position: relative;
   display: flex;
   background-color: #FFFFFF;
-  text-color: #023E8A;
+  color: #023E8A;
 }
 
 .button {
