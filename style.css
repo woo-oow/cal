@@ -1,11 +1,14 @@
 body {
   font-family: Arial, sans-serif;
+  font-size: 200%;
 }
 
 .op {
+  left: 500px
   position: relative;
   display: flex;
   background-color: #262626;
+  text-color: #FFFFFF;
   box-shadow: 3px 4px 5px black;
 }
 
