@@ -4,7 +4,7 @@ body {
 }
 
 .op {
-  left: 500px
+  left: 500px;
   position: relative;
   display: flex;
   background-color: #262626;
