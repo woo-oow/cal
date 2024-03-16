@@ -4,20 +4,19 @@ body {
 }
 
 .op {
-  left: 500px;
+  /* left: 500px; */
   position: relative;
   display: flex;
   background-color: #262626;
   text-color: #FFFFFF;
-  box-shadow: 3px 4px 5px black;
 }
 
 .number {
   position: relative;
   display: flex;
+  flex-align: center;
   background-color: #FFFFFF;
   text-color: #023E8A;
-  box-shadow: 3px 4px 5px black;
 }
 
 .t {
@@ -25,9 +24,11 @@ body {
   display: flex;
   background-color: #FFFFFF;
   text-color: #023E8A;
-  box-shadow: 3px 4px 5px black;
 }
 
+.button {
+  box-shadow: 3px 4px 5px black;
+}
 .button:hover {
   box-shadow: 0px 0px 0px;
 }
