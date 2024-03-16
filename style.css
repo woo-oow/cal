@@ -4,14 +4,22 @@ body {
 }
 
 .op {
-  /* left: 500px; */
+  left: 500px;
+  box-shadow: 3px 4px 5px #000000;
+  padding: 10px 10px 10px 10px;
   position: relative;
   display: flex;
   background-color: #262626;
   color: #FFFFFF;
 }
 
+.op:hover {
+  box-shadow: 0px 0px 0px;
+}
+
 .number {
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 4px 5px #000000;
   position: relative;
   display: flex;
   flex-align: center;
@@ -19,17 +27,20 @@ body {
   color: #023E8A;
 }
 
+.number:hover {
+  box-shadow: 0px 0px 0px;
+}
+
 .t {
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 4px 5px #000000;
   position: relative;
   display: flex;
   background-color: #FFFFFF;
   color: #023E8A;
 }
 
-.button {
-  padding: 10px 10px 10px 10px;
-  box-shadow: 3px 4px 5px #000000;
-}
-.button:hover {
+.t:hover {
   box-shadow: 0px 0px 0px;
 }
+
