@@ -9,6 +9,7 @@ body {
   padding: 10px 10px 10px 10px;
   position: relative;
   display: flex;
+  flex-align: center;
   background-color: #262626;
   color: #FFFFFF;
 }
@@ -38,6 +39,7 @@ body {
   display: flex;
   background-color: #FFFFFF;
   color: #023E8A;
+  flex-align: center;
 }
 
 .t:hover {
