@@ -2,68 +2,24 @@ body {
   font-family: Arial, sans-serif;
   font-size: 200%;
 }
-.number {
-  padding: 10px 10px 10px 10px;
-  box-shadow: 3px 4px 5px #000000;
-  position: relative;
-  display: flex;
-  flex-align: center;
-  background-color: #FFFFFF;
-  color: #023E8A;
-  border-radius: 2px;
-}
 
-.number:hover {
-  box-shadow: 0px 0px 0px;
-}
-
-.t {
-  padding: 10px 10px 10px 10px;
+.number, .t, .op, .oplast {
+  padding: 10px;
   box-shadow: 3px 4px 5px #000000;
   position: relative;
   display: flex;
   background-color: #FFFFFF;
   color: #023E8A;
-  flex-align: center;
   border-radius: 2px;
 }
 
-.t:hover {
-  box-shadow: 0px 0px 0px;
+.number:hover, .t:hover, .op:hover, .oplast:hover {
+  box-shadow: 0;
 }
 
-.op {
-  top: -500px
+.op, .oplast {
+  top: -500px;
   left: 500px;
-  box-shadow: 3px 4px 5px #000000;
-  padding: 10px 10px 10px 10px;
-  position: relative;
-  display: flex;
-  flex-align: center;
   background-color: #262626;
   color: #FFFFFF;
-  border-radius: 2px;
 }
-
-.op:hover {
-  box-shadow: 0px 0px 0px;
-}
-
-
-.oplast {
-  top: -500px
-  left: 500px;
-  padding: 10px 10px 10px 10px;
-  box-shadow: 3px 4px 5px #000000;
-  position: relative;
-  display: flex;
-  flex-align: center;
-  background-color: #FFFFFF;
-  color: #023E8A;
-  border-radius: 2px;
-}
-
-.oplast:hover {
-  box-shadow: 0px 0px 0px;
-}
-
