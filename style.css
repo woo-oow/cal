@@ -45,4 +45,17 @@ body {
 .t:hover {
   box-shadow: 0px 0px 0px;
 }
+.oplast {
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 4px 5px #000000;
+  position: relative;
+  display: flex;
+  flex-align: center;
+  background-color: #FFFFFF;
+  color: #023E8A;
+}
+
+.oplast:hover {
+  box-shadow: 0px 0px 0px;
+}
 
