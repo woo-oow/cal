@@ -27,6 +27,6 @@ body {
 
 .oplast {
   background-color: #FFFFFF;
-  outline: 4px solid black;
+  border: 2px solid black;
   color: #023E8A;
 }
