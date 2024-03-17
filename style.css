@@ -4,7 +4,7 @@ body {
 }
 
 .number, .t, .op, .oplast {
-  left: 50%;
+  left: 500px;
   box-shadow: 3px 4px 5px #000000;
   position: relative;
   display: flex;
