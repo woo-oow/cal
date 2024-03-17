@@ -11,6 +11,7 @@ body {
   background-color: #FFFFFF;
   color: #023E8A;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .number:active, .t:active, .op:active, .oplast:active {
@@ -22,4 +23,10 @@ body {
   left: 500px;
   background-color: #262626;
   color: #FFFFFF;
+}
+
+.oplast {
+  background-color: #FFFFFF
+  outline: 4px solid black;
+  color: #023E8A;
 }
