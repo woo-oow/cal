@@ -13,7 +13,7 @@ body {
   border-radius: 20px;
 }
 
-.number:hover, .t:hover, .op:hover, .oplast:hover {
+.number:active, .t:active, .op:active, .oplast:active {
   box-shadow: 0;
 }
 
