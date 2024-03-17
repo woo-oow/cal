@@ -10,7 +10,7 @@ body {
   display: flex;
   background-color: #FFFFFF;
   color: #023E8A;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 
 .number:hover, .t:hover, .op:hover, .oplast:hover {
@@ -18,7 +18,7 @@ body {
 }
 
 .op, .oplast {
-  top: -500px;
+  top: -300px;
   left: 500px;
   background-color: #262626;
   color: #FFFFFF;
