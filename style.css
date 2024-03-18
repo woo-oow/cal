@@ -1,10 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 700%;
 }
 
 .number, .t, .op, .oplast {
-  left: 300px;
+  font-size: 700%;
+  left: 750px;
   box-shadow: 3px 4px 5px #000000;
   position: relative;
   display: flex;
@@ -16,7 +16,7 @@ body {
 
 .number:active, .t:active, .op:active, .oplast:active {
   box-shadow: 0px 0px 0px;
-  font-size: 95%;
+  font-size: -95%;
 }
 
 .op, .oplast {
