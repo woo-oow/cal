@@ -1,6 +1,9 @@
 let nums1 = []
 let nums2 = []
 
+var distring1 = ""
+var distring2 = ""
+
 var num1 = document.getElementById("num1")
 var num2 = document.getElementById("num2")
 
@@ -23,3 +26,15 @@ function div() {
 function square() {
   if (nums1 > 2) { return nums1[nums1.length() - 1] * nums2[nums1.length() - 1] }
 }
+
+distring1 = ""
+distring2 = ""
+nums1.forEach((i) => {
+  distring1 = distring1 + i
+})
+nums2.forEach((i) => {
+  distring2 = distring2 + i
+})
+
+num1 = distring1
+num2 = distring2
