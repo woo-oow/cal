@@ -3,10 +3,13 @@ body {
 }
 
 .number, .t, .op, .oplast {
-  left: 750px;
   box-shadow: 3px 4px 5px #000000;
+  font-size: 125%;
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50px;
   background-color: #FFFFFF;
   color: #023E8A;
   border-radius: 20px;
@@ -18,8 +21,8 @@ body {
 }
 
 .op, .oplast {
-  top: -275px;
-  left: 400px;
+  top: -265px;
+  left: 250px;
   background-color: #262626;
   color: #FFFFFF;
 }
