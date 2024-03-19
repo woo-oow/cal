@@ -8,11 +8,15 @@ body {
   background-color: #000000;
 }
 
-#toprow, #midtoprow, #lowtoprow, #bottomrow {
+#toprow, #midtoprow, #lowtoprow, #bottomrow, #ops {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#ops {
+  left: 20x;
 }
 
 .number, .t, .op, .oplast {
