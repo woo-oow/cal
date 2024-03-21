@@ -11,6 +11,7 @@ var op = document.getElementById("op")
 
 function saven(n) {
   nums1.push(n)
+  alert(nums1)
 }
 function add() {
   if (nums1 > 2) { 
