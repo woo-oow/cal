@@ -43,8 +43,10 @@ function clear() {
   let nums2 = []
 }
 nums1.forEach((i) => {
-  distring = distring + i
+  distring1 = distring1 + i
 });
-
+nums2.forEach((i) => {
+  distring2 = distring2 + i
+});
 num1.value = distring1
 num2.value = distring2
