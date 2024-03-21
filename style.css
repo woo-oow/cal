@@ -16,7 +16,7 @@ body {
 }
 
 #ops {
-  flex-direction: column
+  flex-direction: column;
 }
 
 .number, .type, .oplast, .majoritybutton, .op {
