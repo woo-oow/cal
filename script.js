@@ -48,5 +48,6 @@ nums1.forEach((i) => {
 nums2.forEach((i) => {
   distring2 = distring2 + i
 });
-num1.value = distring1
-num2.value = distring2
+
+num1.innerHTML = distring1
+num2.innerHTML = distring2
