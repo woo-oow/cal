@@ -14,27 +14,21 @@ function saven(n) {
 function add() {
   if (nums1 > 2) { return nums1[nums1.length() - 1] + nums2[nums2.length() - 2] }
 }
-function sub() {
+function subtract() {
   if (nums1 > 2) { return nums1[nums1.length() - 1] - nums2[nums2.length() - 2] }
 }
-function mul() {
+function multiply() {
   if (nums1 > 2) { return nums1[nums1.length() - 1] * nums2[nums2.length() - 2] }
 }
-function div() {
+function divide() {
   if (nums1 > 2) { return nums1[nums1.length() - 1] / nums2[nums2.length() - 2] }
 }
 function square() {
   if (nums1 > 2) { return nums1[nums1.length() - 1] * nums2[nums1.length() - 1] }
 }
 
-distring1 = ""
-distring2 = ""
-nums1.forEach((i) => {
-  distring1 = distring1 + i
-})
-nums2.forEach((i) => {
-  distring2 = distring2 + i
-})
+distring1 = nums1.join("");
+distring2 = nums2.join("");
 
-num1 = distring1
-num2 = distring2
+num1.value = distring1
+num2.value = distring2
