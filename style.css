@@ -19,12 +19,12 @@ body {
   flex-direction: column
 }
 
-.number, .t, .op, .oplast {
+.number, .type, .oplast, .majoritybutton, op {
   box-shadow: 3px 4px 5px #000000;
   font-size: 200%;
   left: 50px;
   background-color: #FFFFFF;
-  color: #023E8A;
+  color: #0f0e15;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -35,7 +35,7 @@ body {
 
 .op, .oplast {
   background-color: #25303f;
-  color: ##fcfdfd;
+  color: #fcfdfd;
 }
 
 .oplast {
