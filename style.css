@@ -19,10 +19,9 @@ body {
   flex-direction: column
 }
 
-.number, .type, .oplast, .majoritybutton, op {
+.number, .type, .oplast, .majoritybutton, .op {
   box-shadow: 3px 4px 5px #000000;
-  font-size: 200%;
-  left: 50px;
+  font-size: 250%;
   background-color: #FFFFFF;
   color: #0f0e15;
   border-radius: 20px;
