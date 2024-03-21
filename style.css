@@ -8,15 +8,15 @@ body {
   background-color: #a8b3a7;
 }
 
-#toprow, #midtoprow, #lowtoprow, #bottomrow, #ops {
+#toprow, #midtoprow, #lowtoprow, #bottomrow {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 #ops {
-  flex-direction: column;
+  left: 50px;
+  align-items: center;
 }
 
 .number, .type, .oplast, .majoritybutton, .op {
