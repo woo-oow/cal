@@ -16,7 +16,6 @@ body {
 
 #ops {
   align-items: center;
-  left: 75px;
 }
 
 .number, .type, .oplast, .majoritybutton, .op {
