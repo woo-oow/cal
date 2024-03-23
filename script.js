@@ -13,7 +13,6 @@ var op = document.getElementById("op")
 
 function saven(n) {
   nums1.push(n)
-  alert(distring)
 }
 function add() {
   if (nums1 > 2) { 
@@ -44,6 +43,10 @@ function clear() {
   let nums1 = []
   let nums2 = []
 }
+
+distring1 = ""
+distring2 = ""
+
 nums1.forEach((i) => {
   distring1 = distring1 + i
 });
@@ -51,8 +54,5 @@ nums2.forEach((i) => {
   distring2 = distring2 + i
 });
 
-num1.innerHTML += distring1
-
-if (num1 !== debug) { alert(num1)}
-
-num2.innerHTML += distring2
+num1.innerHTML = distring1
+num2.innerHTML = distring2
