@@ -8,14 +8,10 @@ body {
   background-color: #a8b3a7;
 }
 
-.button {
+#thirdrowdown, #fourthrowdown, #fifthrowdown, #toprow, #middletoprow, #lowtoprow, #bottomrow {
   position: relative;
   display: flex;
   justify-content: center;
-}
-
-#ops {
-  align-items: center;
 }
 
 .number, .type, .oplast, .majoritybutton, .op {
