@@ -7,6 +7,8 @@ var distring2 = ""
 var num1 = document.getElementById("num1")
 var num2 = document.getElementById("num2")
 
+let debug = num1
+
 var op = document.getElementById("op")
 
 function saven(n) {
@@ -49,5 +51,8 @@ nums2.forEach((i) => {
   distring2 = distring2 + i
 });
 
-num1.innerHTML = distring1
-num2.innerHTML = distring2
+num1.innerHTML += distring1
+
+if (num1 !== debug) { alert(num1)}
+
+num2.innerHTML += distring2
